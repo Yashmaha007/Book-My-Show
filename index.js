@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 mongoose.set("strictQuery", false);
 const cors = require("cors"); //import express
 const app = express(); //import mongoose
-const router = require("./routes/routes"); //import routes
+const router = require("./Routes/routes"); //import routes
 const port = process.env.PORT || 8080; //setting port to 8080
 //connect to mongodb to application
 const uri =
